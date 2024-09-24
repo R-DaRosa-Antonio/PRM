@@ -1,6 +1,7 @@
 import Footer from "./app/components/Footer"
 import Header from "./app/components/Header"
-
+import HighLightSection from "./app/components/HighlightSection"
+import Section from "./app/components/Section"
 function App() {
   
   return (
@@ -9,7 +10,20 @@ function App() {
 
       <Header />
       
-      <main></main>
+      <main
+
+        style={{
+          marginTop: '8rem'
+        }}
+
+      
+      >
+      <HighLightSection/>
+
+     <Section title="Para Toda Familia"/>
+     <Section title="Recomendado"/>
+    
+      </main>
 
       <Footer></Footer>
       

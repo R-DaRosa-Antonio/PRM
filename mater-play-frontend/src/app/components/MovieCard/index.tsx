@@ -10,7 +10,7 @@ function Moviecard({
 }:MovieCardProps){
     return(
         <Paper
-        component={"a"}
+        component="a"
         elevation={0}
         href="/1"
         sx={{
